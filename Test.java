@@ -8,7 +8,7 @@ public class Test {
 		int num2 = (int)(System.currentTimeMillis() / 10 % 10);
 		
 		Scanner input = new Scanner(System.in);
-		System.out.print("what is the remainder of " + num1 + " divided " + num2 + "? ");
+		System.out.print("what is the remainder of " + num1 + " divided by " + num2 + "? ");
 		
 		int answer = input.nextInt();
 		
